@@ -9,7 +9,7 @@ This is a test content.
 
 Demo: ground truth and vocoder
 
-<audio src="wavs/gt-vocoder.wav"></audio>
+<audio controls><source src="wavs/gt-vocoder.wav" type="audio/wav"></audio>
 
 # Acknowledgements
 
