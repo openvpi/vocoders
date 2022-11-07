@@ -18,8 +18,8 @@ Training data of the vocoders is provided and used under permissions by the foll
 |   Signature    |                             Link                             |
 | :------------: | :----------------------------------------------------------: |
 |      孙飒      |        [https://www.qfssr.cn](https://www.qfssr.cn/)         |
-| 赤松_Akamatsu  |     [https://www.zhibin.club/](https://www.zhibin.club/)     |
-|      乐威      |     [https://www.zhibin.club/](https://www.zhibin.club/)     |
+| 赤松_Akamatsu  |      [https://www.zhibin.club](https://www.zhibin.club)      |
+|      乐威      |      [https://www.zhibin.club](https://www.zhibin.club)      |
 |      伯添      | [https://space.bilibili.com/24087011](https://space.bilibili.com/24087011) |
 |     雲宇光     | [https://space.bilibili.com/660675050](https://space.bilibili.com/660675050) |
 |     橙子言     | [https://space.bilibili.com/318486464](https://space.bilibili.com/318486464) |
