@@ -4,3 +4,6 @@ markdown: kramdown
 kramdown:
   toc_levels: 1..2
 title: "DiffSinger Community Vocoders"
+github:
+  show_repository_link: true
+  repository_url: https://github.com/openvpi/vocoders
