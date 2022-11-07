@@ -7,3 +7,4 @@ title: "DiffSinger Community Vocoders"
 github:
   show_repository_link: true
   repository_url: https://github.com/openvpi/vocoders
+  show_maintainer: false
