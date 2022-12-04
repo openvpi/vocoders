@@ -1,8 +1,5 @@
+[TOC]
 
-
-{:.no_toc}
-* toc
-{:toc}
 # Overview
 
 This is a test content.
@@ -57,3 +54,11 @@ The model weights are licensed under the [CC BY-NC-SA 4.0](https://creativecommo
 # Downloads
 
 Coming soon...
+
+### Public application for the beta version of our first vocoder pretrained model
+
+Our first pretrained model has reached its public beta!
+
+If you are developers of open-sourced projects or academic researchers who are willing to take part in our tests, please send a formal email to [openvpi@outlook.com](mailto:openvpi@outlook.com), describe the content of your work and your plans of usage with the pretrained model. Once we confirmed that you meet the requirements of the public beta, we will send a download link to you.
+
+Note that the pretrained model is released under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license, and using the pretrained model means that you have accepted the terms of the license. After downloading the model weights, please read the notice carefully.
