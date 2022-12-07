@@ -25,7 +25,7 @@ Training data of the vocoders is provided and used under permissions by the foll
 |     Yuuko      |                                                              |
 |   白夜零BYL    | [https://space.bilibili.com/1605040503](https://space.bilibili.com/1605040503) |
 |      嗷天      | [https://space.bilibili.com/5675252](https://space.bilibili.com/5675252) |
-|     洛泠羽     |                                                              |
+|     洛泠羽     | [https://space.bilibili.com/347373318](https://space.bilibili.com/347373318) |
 | 灰条纹的灰猫君 | [https://space.bilibili.com/2083633](https://space.bilibili.com/2083633) |
 |      幽寂      | [https://space.bilibili.com/478860](https://space.bilibili.com/478860) |
 |    恶魔王女    | [https://space.bilibili.com/2475098](https://space.bilibili.com/2475098) |
