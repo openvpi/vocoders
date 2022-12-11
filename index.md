@@ -53,12 +53,7 @@ The model weights are licensed under the [CC BY-NC-SA 4.0](https://creativecommo
 
 # Downloads
 
-Coming soon...
+|    model    |  sr   | mel bins | hop size | input freq |   dataset    | iters |                             link                             |
+| :---------: | :---: | :------: | :------: | :--------: | :----------: | :---: | :----------------------------------------------------------: |
+| NSF-HiFiGAN | 44100 |   128    |   512    |  40-16000  | ~93h singing | >= 1M | [link](https://github.com/openvpi/vocoders/releases/tag/nsf-hifigan-v1) |
 
-### Public application for the beta version of our first vocoder pretrained model
-
-Our first pretrained model has reached its public beta!
-
-If you are developers of open-sourced projects or academic researchers who are willing to take part in our tests, please send a formal email to [openvpi@outlook.com](mailto:openvpi@outlook.com), describe the content of your work and your plans of usage with the pretrained model. Once we confirmed that you meet the requirements of the public beta, we will send a download link to you.
-
-Note that the pretrained model is released under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license, and using the pretrained model means that you have accepted the terms of the license. After downloading the model weights, please read the notice carefully.
