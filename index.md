@@ -1,14 +1,16 @@
-# Copy Synthesis Demo
+# DiffSinger Community Vocoder Project
 
-### Ground Truth
+## Copy Synthesis Demo
+
+**Ground Truth:**
 
 <audio controls><source src="wavs/gt_00.wav" type="audio/wav"></audio>
 
-### Prediction
+**Prediction:**
 
 <audio controls><source src="wavs/pred_00.wav" type="audio/wav"></audio>
 
-# Acknowledgements
+## Acknowledgements
 
 Training data of the vocoders is provided and used under permissions by the following organizations, societies or individuals:
 
@@ -62,11 +64,11 @@ The following public datasets are used:
 |       CCMUSIC       | [https://ccmusic-database.github.io/index.html](https://ccmusic-database.github.io/index.html) |
 | SingingVoiceDataset | [http://isophonics.net/SingingVoiceDataset](http://isophonics.net/SingingVoiceDataset) |
 
-# License
+## License
 
 The model weights are licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Anyone who distributes the model weights should include a copy of the license, a notice informing that the models are provided by the **OpenVPI Community** (or **DiffSinger Community**), and a link referring [this page](https://openvpi.github.io/vocoders/) (or a complete contribution list).
 
-# Downloads
+## Downloads
 
 |    model    |    date    |                        specifications                        |            dataset             | iters |                             link                             |
 | :---------: | :--------: | :----------------------------------------------------------: | :----------------------------: | :---: | :----------------------------------------------------------: |
