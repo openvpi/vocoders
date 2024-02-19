@@ -1,12 +1,12 @@
-[TOC]
+# Copy Synthesis Demo
 
-# Overview
+### Ground Truth
 
-This is a test content.
+<audio controls><source src="wavs/gt_00.wav" type="audio/wav"></audio>
 
-Demo: ground truth and vocoder
+### Prediction
 
-<audio controls><source src="wavs/gt-vocoder.wav" type="audio/wav"></audio>
+<audio controls><source src="wavs/pred_00.wav" type="audio/wav"></audio>
 
 # Acknowledgements
 
@@ -68,8 +68,8 @@ The model weights are licensed under the [CC BY-NC-SA 4.0](https://creativecommo
 
 # Downloads
 
-|    model    |  sr   | mel bins | hop size | input freq |            dataset             | iters |                             link                             |
-| :---------: | :---: | :------: | :------: | :--------: | :----------------------------: | :---: | :----------------------------------------------------------: |
-| NSF-HiFiGAN | 44100 |   128    |   512    |  40-16000  |          ~93h singing          | >= 1M | [link](https://github.com/openvpi/vocoders/releases/tag/nsf-hifigan-v1) |
-| NSF-HiFiGAN | 44100 |   128    |   512    |  40-16000  | ~72h singing (for fine-tuning) | 110K  | [link](https://github.com/openvpi/vocoders/releases/tag/nsf-hifigan-44.1k-hop512-128bin-2024.02) |
+|    model    |    date    |                        specifications                        |            dataset             | iters |                             link                             |
+| :---------: | :--------: | :----------------------------------------------------------: | :----------------------------: | :---: | :----------------------------------------------------------: |
+| NSF-HiFiGAN | 2022-12-11 | 44.1 kHz sampling rate, hop size 512, 128 mel bins, input frequency 40-16000 |          ~93h singing          | >= 1M | [link](https://github.com/openvpi/vocoders/releases/tag/nsf-hifigan-v1) |
+| NSF-HiFiGAN | 2024-02-19 | 44.1 kHz sampling rate, hop size 512, 128 mel bins, input frequency 40-16000 | ~72h singing (for fine-tuning) | 110K  | [link](https://github.com/openvpi/vocoders/releases/tag/nsf-hifigan-44.1k-hop512-128bin-2024.02) |
 
