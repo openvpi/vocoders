@@ -29,7 +29,7 @@ Training data of the vocoders is provided and used under permissions by the foll
 | 灰条纹的灰猫君 | [https://space.bilibili.com/2083633](https://space.bilibili.com/2083633) |
 |      幽寂      | [https://space.bilibili.com/478860](https://space.bilibili.com/478860) |
 |    恶魔王女    | [https://space.bilibili.com/2475098](https://space.bilibili.com/2475098) |
-|  AlexYHX 芮晴  |                                                              |
+|      芮晴      |                                                              |
 |      绮萱      | [https://y.qq.com/n/ryqq/singer/003HjD6H4aZn1K](https://y.qq.com/n/ryqq/singer/003HjD6H4aZn1K) |
 |      诗芸      | [https://y.qq.com/n/ryqq/singer/0005NInj142zm0](https://y.qq.com/n/ryqq/singer/0005NInj142zm0) |
 |      汐蕾      | [https://y.qq.com/n/ryqq/singer/0023cWMH1Bq1PJ](https://y.qq.com/n/ryqq/singer/0023cWMH1Bq1PJ) |
@@ -46,6 +46,21 @@ Training data of the vocoders is provided and used under permissions by the foll
 |    声闻计划    | [https://space.bilibili.com/392812269](https://space.bilibili.com/392812269) |
 |   唐家大小姐   | [http://5sing.kugou.com/palmusic/default.html](http://5sing.kugou.com/palmusic/default.html) |
 |     不伊子     |                                                              |
+|     芸青岩     | [https://space.bilibili.com/35236775](https://space.bilibili.com/35236775) |
+|      妖橙      | [https://space.bilibili.com/161975631](https://space.bilibili.com/161975631) |
+|      双桨      | [https://space.bilibili.com/13245483](https://space.bilibili.com/13245483) |
+|      灵滅      | [https://space.bilibili.com/276988145](https://space.bilibili.com/276988145) |
+|    AlexYHX     | [https://space.bilibili.com/13303439](https://space.bilibili.com/13303439) |
+|      祁唱      | [https://space.bilibili.com/11256670](https://space.bilibili.com/11256670) |
+|     早稻叽     | [https://space.bilibili.com/1950658](https://space.bilibili.com/1950658) |
+
+The following public datasets are used:
+
+|       Dataset       |                             Link                             |
+| :-----------------: | :----------------------------------------------------------: |
+|      Opencpop       | [https://wenet.org.cn/opencpop/](https://wenet.org.cn/opencpop/) |
+|       CCMUSIC       | [https://ccmusic-database.github.io/index.html](https://ccmusic-database.github.io/index.html) |
+| SingingVoiceDataset | [http://isophonics.net/SingingVoiceDataset](http://isophonics.net/SingingVoiceDataset) |
 
 # License
 
@@ -53,7 +68,8 @@ The model weights are licensed under the [CC BY-NC-SA 4.0](https://creativecommo
 
 # Downloads
 
-|    model    |  sr   | mel bins | hop size | input freq |   dataset    | iters |                             link                             |
-| :---------: | :---: | :------: | :------: | :--------: | :----------: | :---: | :----------------------------------------------------------: |
-| NSF-HiFiGAN | 44100 |   128    |   512    |  40-16000  | ~93h singing | >= 1M | [link](https://github.com/openvpi/vocoders/releases/tag/nsf-hifigan-v1) |
+|    model    |  sr   | mel bins | hop size | input freq |            dataset             | iters |                             link                             |
+| :---------: | :---: | :------: | :------: | :--------: | :----------------------------: | :---: | :----------------------------------------------------------: |
+| NSF-HiFiGAN | 44100 |   128    |   512    |  40-16000  |          ~93h singing          | >= 1M | [link](https://github.com/openvpi/vocoders/releases/tag/nsf-hifigan-v1) |
+| NSF-HiFiGAN | 44100 |   128    |   512    |  40-16000  | ~72h singing (for fine-tuning) | 110K  | [link](https://github.com/openvpi/vocoders/releases/tag/nsf-hifigan-44.1k-hop512-128bin-2024.02) |
 
