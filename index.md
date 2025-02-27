@@ -1,14 +1,58 @@
 ---
 
-# Copy Synthesis Demo
+# Demo
 
-**Ground Truth:**
+## Copy Synthesis
 
-<audio controls><source src="wavs/gt_00.wav" type="audio/wav"></audio>
+<table border="1" style="width:100%; text-align:center;">
+    <tr>
+        <th>No.</th>
+        <th>Source</th>
+        <th>Output</th>
+    </tr>
+    <tr>
+        <th>01</th>
+        <td><audio controls><source src="wavs/gt_01.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_01.wav" type="audio/wav"></audio></td>
+    </tr>
+    <tr>
+        <th>02</th>
+        <td><audio controls><source src="wavs/gt_02.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_02.wav" type="audio/wav"></audio></td>
+    </tr>
+</table>
 
-**Prediction:**
+## Pitch Shifting
 
-<audio controls><source src="wavs/pred_00.wav" type="audio/wav"></audio>
+<table border="1" style="width:100%; text-align:center;">
+    <tr>
+        <th>No.</th>
+        <th>-12key</th>
+        <th>-8key</th>
+        <th>-4key</th>
+        <th>+4key</th>
+        <th>+8key</th>
+        <th>+12key</th>
+    </tr>
+    <tr>
+        <th>01</th>
+        <td><audio controls><source src="wavs/pred_01_shift-12key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_01_shift-8key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_01_shift-4key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_01_shift+4key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_01_shift+8key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_01_shift+12key.wav" type="audio/wav"></audio></td>
+    </tr>
+    <tr>
+        <th>02</th>
+        <td><audio controls><source src="wavs/pred_02_shift-12key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_02_shift-8key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_02_shift-4key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_02_shift+4key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_02_shift+8key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_02_shift+12key.wav" type="audio/wav"></audio></td>
+    </tr>
+</table>
 
 # Acknowledgements
 
@@ -16,7 +60,7 @@ Training data of the vocoders is provided and used under permissions by the foll
 
 |   Signature    |                             Link                             |
 | :------------: | :----------------------------------------------------------: |
-|      孙飒      |        [https://www.qfssr.cn](https://www.qfssr.cn/)         |
+|      孙飒      | [https://www.qfssr.cn](https://space.bilibili.com/12945221)  |
 | 赤松_Akamatsu  |      [https://www.zhibin.club](https://www.zhibin.club)      |
 |      乐威      |      [https://www.zhibin.club](https://www.zhibin.club)      |
 |      伯添      | [https://space.bilibili.com/24087011](https://space.bilibili.com/24087011) |
@@ -55,6 +99,7 @@ Training data of the vocoders is provided and used under permissions by the foll
 |    AlexYHX     | [https://space.bilibili.com/13303439](https://space.bilibili.com/13303439) |
 |      祁唱      | [https://space.bilibili.com/11256670](https://space.bilibili.com/11256670) |
 |     早稻叽     | [https://space.bilibili.com/1950658](https://space.bilibili.com/1950658) |
+|    泽木团子    | [https://space.bilibili.com/5343740](https://space.bilibili.com/5343740) |
 
 The following public datasets are used:
 
@@ -63,6 +108,11 @@ The following public datasets are used:
 |      Opencpop       | [https://wenet.org.cn/opencpop/](https://wenet.org.cn/opencpop/) |
 |       CCMUSIC       | [https://ccmusic-database.github.io/index.html](https://ccmusic-database.github.io/index.html) |
 | SingingVoiceDataset | [http://isophonics.net/SingingVoiceDataset](http://isophonics.net/SingingVoiceDataset) |
+|     東北イタコ      | [https://zunko.jp/itadev/login.php](https://zunko.jp/itadev/login.php) |
+|    御丹宮くるみ     | [https://onikuru.info/db-download/](https://onikuru.info/db-download/) |
+|         PJS         | [https://sites.google.com/site/shinnosuketakamichi/research-topics/pjs_corpus](https://sites.google.com/site/shinnosuketakamichi/research-topics/pjs_corpus) |
+|         HTS         | [https://hts.sp.nitech.ac.jp/](https://hts.sp.nitech.ac.jp/) |
+|      TIGER 2.0      |        [https://tigermeat.xyz](https://tigermeat.xyz)        |
 
 # License
 
@@ -70,8 +120,9 @@ The model weights are licensed under the [CC BY-NC-SA 4.0](https://creativecommo
 
 # Downloads
 
-|    model    |    date    |                        specifications                        |            dataset             | iters |                             link                             |
-| :---------: | :--------: | :----------------------------------------------------------: | :----------------------------: | :---: | :----------------------------------------------------------: |
-| NSF-HiFiGAN | 2022-12-11 | 44.1 kHz sampling rate, hop size 512, 128 mel bins, input frequency 40-16000 |          ~93h singing          | >= 1M | [link](https://github.com/openvpi/vocoders/releases/tag/nsf-hifigan-v1) |
-| NSF-HiFiGAN | 2024-02-19 | 44.1 kHz sampling rate, hop size 512, 128 mel bins, input frequency 40-16000 | ~72h singing (for fine-tuning) | 110K  | [link](https://github.com/openvpi/vocoders/releases/tag/nsf-hifigan-44.1k-hop512-128bin-2024.02) |
+|     model      |    date    |                        specifications                        |            dataset             |  iters   |                             link                             |
+| :------------: | :--------: | :----------------------------------------------------------: | :----------------------------: | :------: | :----------------------------------------------------------: |
+|  NSF-HiFiGAN   | 2022-12-11 | 44.1 kHz sampling rate, hop size 512, 128 mel bins, input frequency 40-16000 |          ~93h singing          |  >= 1M   | [link](https://github.com/openvpi/vocoders/releases/tag/nsf-hifigan-v1) |
+|  NSF-HiFiGAN   | 2024-02-19 | 44.1 kHz sampling rate, hop size 512, 128 mel bins, input frequency 40-16000 | ~72h singing (for fine-tuning) |   110K   | [link](https://github.com/openvpi/vocoders/releases/tag/nsf-hifigan-44.1k-hop512-128bin-2024.02) |
+| PC-NSF-HIFIGAN | 2025-02-27 | 44.1 kHz sampling rate, hop size 512, 128 mel bins, input frequency 40-16000, pitch-controllable | ~79h singing (for fine-tuning) | 40K+108K | [link](https://github.com/openvpi/vocoders/releases/tag/pc-nsf-hifigan-44.1k-hop512-128bin-2025.02) |
 
