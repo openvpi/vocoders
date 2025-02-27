@@ -119,8 +119,8 @@ We solemnly declare:
 ## Registry of Hostile Conduct
 
 |        Name        | Identifiers                                                  | Reason                                                       |
-| :----------------: | ------------------------------------------------------------ | :----------------------------------------------------------- |
-| 旋转_turning_point | QQ: 2673587414<br/>Bilibili UID: 285801087<br/>Discord username: colstone233 | Engaging in long-term hostile and personal attacks against developers, repeatedly spreading false information about DiffSinger and the development team, and interfering with the development process of the vocoder and other projects in the community |
+| :----------------: | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| 旋转_turning_point | QQ: 2673587414;<br/>Bilibili UID: 285801087;<br/>Discord username: colstone233 | Engaging in long-term hostile and personal attacks against developers, repeatedly spreading false information about DiffSinger and the development team, and interfering with the development process of the vocoder and other projects in the community |
 
 # Downloads
 
