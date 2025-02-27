@@ -2,51 +2,37 @@
 
 # Demo
 
-## Copy Synthesis
+The following table shows examples of copy synthesis and pitch shifting of the vocoder.
 
 <table border="1" style="width:100%; text-align:center;">
     <tr>
-        <th>No.</th>
+        <th></th>
         <th>Source</th>
-        <th>Output</th>
+        <th>-12 smt.</th>
+        <th>-8 smt.</th>
+        <th>-4 smt.</th>
+        <th>0 smt. (normal)</th>
+        <th>+4 smt.</th>
+        <th>+8 smt.</th>
+        <th>+12 smt.</th>
     </tr>
     <tr>
         <th>01</th>
         <td><audio controls><source src="wavs/gt_01.wav" type="audio/wav"></audio></td>
-        <td><audio controls><source src="wavs/pred_01.wav" type="audio/wav"></audio></td>
-    </tr>
-    <tr>
-        <th>02</th>
-        <td><audio controls><source src="wavs/gt_02.wav" type="audio/wav"></audio></td>
-        <td><audio controls><source src="wavs/pred_02.wav" type="audio/wav"></audio></td>
-    </tr>
-</table>
-
-## Pitch Shifting
-
-<table border="1" style="width:100%; text-align:center;">
-    <tr>
-        <th>No.</th>
-        <th>-12key</th>
-        <th>-8key</th>
-        <th>-4key</th>
-        <th>+4key</th>
-        <th>+8key</th>
-        <th>+12key</th>
-    </tr>
-    <tr>
-        <th>01</th>
         <td><audio controls><source src="wavs/pred_01_shift-12key.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_01_shift-8key.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_01_shift-4key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_01.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_01_shift+4key.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_01_shift+8key.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_01_shift+12key.wav" type="audio/wav"></audio></td>
     </tr>
     <tr>
         <th>02</th>
+        <td><audio controls><source src="wavs/pred_02.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_02_shift-12key.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_02_shift-8key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_02_shift-4key.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_02_shift-4key.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_02_shift+4key.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_02_shift+8key.wav" type="audio/wav"></audio></td>
@@ -60,7 +46,7 @@ Training data of the vocoders is provided and used under permissions by the foll
 
 |   Signature    |                             Link                             |
 | :------------: | :----------------------------------------------------------: |
-|      孙飒      | [https://www.qfssr.cn](https://space.bilibili.com/12945221)  |
+|      孙飒      | [https://space.bilibili.com/12945221](https://space.bilibili.com/12945221) |
 | 赤松_Akamatsu  |      [https://www.zhibin.club](https://www.zhibin.club)      |
 |      乐威      |      [https://www.zhibin.club](https://www.zhibin.club)      |
 |      伯添      | [https://space.bilibili.com/24087011](https://space.bilibili.com/24087011) |
