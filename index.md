@@ -29,16 +29,17 @@ The following table shows examples of copy synthesis and pitch shifting of the v
     </tr>
     <tr>
         <th>02</th>
-        <td><audio controls><source src="wavs/pred_02.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/gt_02.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_02_shift-12key.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_02_shift-8key.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_02_shift-4key.wav" type="audio/wav"></audio></td>
-        <td><audio controls><source src="wavs/pred_02_shift-4key.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="wavs/pred_02.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_02_shift+4key.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_02_shift+8key.wav" type="audio/wav"></audio></td>
         <td><audio controls><source src="wavs/pred_02_shift+12key.wav" type="audio/wav"></audio></td>
     </tr>
 </table>
+
 
 # Acknowledgements
 
@@ -103,6 +104,23 @@ The following public datasets are used:
 # License
 
 The model weights are licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Anyone who distributes the model weights should include a copy of the license, a notice informing that the models are provided by the **OpenVPI Community** (or **DiffSinger Community**), and a link referring [this page](https://openvpi.github.io/vocoders/) (or a complete contribution list).
+
+# Special Statements
+
+We regret to publish a verified Registry of Hostile Conduct (shown as below). This registry documents individuals/entities who have engaged in long-term destructive activities against the development team.
+
+We solemnly declare:
+
+1. Strongly recommend all users review this registry before downloading and using this vocoder
+2. No technical or legal restrictions are currently imposed on listed parties, as the vocoder is
+   still licensed under CC BY-NC-SA 4.0
+3. Reserve the right to apply further restrictions in case of persistent malicious acts
+
+## Registry of Hostile Conduct
+
+|        Name        | Identifiers                                                  | Reason                                                       |
+| :----------------: | ------------------------------------------------------------ | :----------------------------------------------------------- |
+| 旋转_turning_point | QQ: 2673587414<br/>Bilibili UID: 285801087<br/>Discord username: colstone233 | Engaging in long-term hostile and personal attacks against developers, repeatedly spreading false information about DiffSinger and the development team, and interfering with the development process of the vocoder and other projects in the community |
 
 # Downloads
 
